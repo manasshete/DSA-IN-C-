@@ -2,7 +2,7 @@
 using namespace std;
 
 int main () {
-    for (int i = 1; i <= 5; i = i +1) {
+    for (int i = 1; i <= 500; i = i +1) {
         cout << "manas"  << i << endl;
     }
 
@@ -28,3 +28,27 @@ int main () {
 
     return 0;
 }
+
+
+
+
+
+
+
+basic
+ifelse.cpp
+loops 
+switch 
+basic string 
+datatyoes
+
+
+
+
+
+    
+
+
+
+
+

@@ -1,50 +1,24 @@
 #include <bits/stdc++.h>
-using namespace std ;
+using namespace std;
 
-
-// functions 4 types
-// void functions -> does not return any value
-// return type functions
-// parameterised functions
-// non parameterised functions
-
-// void name(){
-//     cout << "manas" ;
-// }
-
-// wont give any output
-
-
-// int main (){
-//     name(); // function call
-//     return 0;
-
-//}
-
-// parameterinsed function
-
-// void printnname(string name) {
-//     cout << "hey " << name ;
-// }
-
-// int main () {
-//     string name;
-//     cin >> name;
-//     printnname(name);
-//     return 0;
-// }
-
-
-
-// addition of two numbers
- 
-void add (int a, int b) {
-    cout << a + b << endl;
+// --- FUNCTION DEFINITION ---
+// 1. "void": Means this machine DOES NOT give a value back to main(). It just does work (prints).
+// 2. "add": The name of the function.
+// 3. "(int a, int b)": The Parameters. These are empty placeholders waiting for values.
+void add(int a, int b) { 
+    // The logic happens here
+    cout << "Sum is: " << a + b << endl;
 }
 
-int main () {
-    int a , b ;
-    cin >> a >> b;
-    add (a,b);
+int main() {
+    int num1, num2;
+    cin >> num1 >> num2; // Assume user types 5 and 10
+
+    // --- FUNCTION CALL ---
+    // We pass the VALUES of 'num1' and 'num2' into the placeholders 'a' and 'b'.
+    // num1 (5)  --> copies to --> a
+    // num2 (10) --> copies to --> b
+    add(num1, num2); 
+
     return 0;
 }
